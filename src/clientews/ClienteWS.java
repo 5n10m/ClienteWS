@@ -16,6 +16,10 @@ public class ClienteWS {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("ConsultaLibres: "+ Integer.toString(consultaLibres(1, 6102015)));
+        System.out.println("ConsultaLibres1: "+ Integer.toString(consultaLibres_1(1, 6102015)));
+        System.out.println("reservaHabitacion: "+ Integer.toString(reservaHabitacion(1, 6102015)));
+        System.out.println("reservaPlaza: "+ Integer.toString(reservaPlaza(1, 6102015)));
     }
 
     private static int consultaLibres(int idHotel, int fecha) {
